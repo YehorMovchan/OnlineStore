@@ -32,7 +32,7 @@
     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource"
           destroy-method="close">
         <property name="driverClass" value="com.mysql.cj.jdbc.Driver" />
-        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/onlinestore?useSSL=false&amp;serverTimezone=UTC&amp;allowPublicKeyRetrieval=true" />
+        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/okaycms?useSSL=false&amp;serverTimezone=UTC&amp;allowPublicKeyRetrieval=true" />
         <property name="user" value="appuser" />
         <property name="password" value="apppass" />
     </bean>
